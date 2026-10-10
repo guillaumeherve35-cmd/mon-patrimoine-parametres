@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "millesime": 2026,
-  "publieLe": "2026-09-22",
+  "publieLe": "2026-10-10",
   "versionAppliMini": "6.1.0",
   "bareme": {
     "2020": [
@@ -347,6 +347,14 @@
       "seul": 4600,
       "couple": 9200
     }
+  },
+  "pee": {
+    "abondementPlafond": {
+      "2026": 3844.8
+    },
+    "abondementRatioMax": 3,
+    "majorationTitres": 0.8,
+    "blocageAns": 5
   },
   "succession": {
     "avApres70": {
