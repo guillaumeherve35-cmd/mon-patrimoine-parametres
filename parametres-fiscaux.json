@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "millesime": 2026,
-  "publieLe": "2026-10-10",
+  "publieLe": "2026-11-10",
   "versionAppliMini": "6.1.0",
   "bareme": {
     "2020": [
@@ -355,6 +355,84 @@
     "abondementRatioMax": 3,
     "majorationTitres": 0.8,
     "blocageAns": 5
+  },
+  "location": {
+    "microFoncier": {
+      "plafond": 15000,
+      "abattement": 0.3
+    },
+    "microBic": {
+      "2025": {
+        "longue": [
+          77700,
+          0.5
+        ],
+        "tourismeClasse": [
+          77700,
+          0.5
+        ],
+        "tourismeNonClasse": [
+          15000,
+          0.3
+        ]
+      },
+      "2026": {
+        "longue": [
+          83600,
+          0.5
+        ],
+        "tourismeClasse": [
+          83600,
+          0.5
+        ],
+        "tourismeNonClasse": [
+          15000,
+          0.3
+        ]
+      }
+    },
+    "microBicAbattementMin": 305,
+    "deficitFoncier": {
+      "plafond": 10700,
+      "plafondRenovation": 21400,
+      "renovationJusqua": "2027-12-31",
+      "reportAns": 10
+    },
+    "is": {
+      "tauxReduit": 0.15,
+      "seuilReduit": 42500,
+      "tauxNormal": 0.25
+    },
+    "chambre": {
+      "2025": {
+        "idf": 213,
+        "autres": 157
+      },
+      "2026": {
+        "idf": 215,
+        "autres": 159
+      },
+      "jusqua": "2026-12-31"
+    },
+    "rpMeubleTourismeJours": 120,
+    "cfeSeuilRecettes": 5000,
+    "apportSciIs": 0.05,
+    "contributionSecuriteImmo": 0.001,
+    "pvImmo": {
+      "forfaitFrais": 0.075,
+      "forfaitTravaux": 0.15,
+      "travauxApresAns": 5
+    },
+    "dpe": {
+      "G": "2025-01-01",
+      "F": "2028-01-01",
+      "E": "2034-01-01"
+    },
+    "dpeOutreMer": {
+      "G": "2028-01-01",
+      "F": "2031-01-01"
+    },
+    "ptzOccupationAns": 6
   },
   "succession": {
     "avApres70": {
